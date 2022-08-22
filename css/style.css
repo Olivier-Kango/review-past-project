@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #eee;
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .btn{
+      padding: 0 20px;
+      height: 40px;
+      font-size: 1em;
+      font-weight: 900;
+      text-transform: uppercase;
+      border: 3px black solid;
+      border-radius: 2px;
+      background: transparent;
+      cursor: pointer;
+  }
+
+.logo {
+    width: 60vm;
+}
+
+#how-it-works {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+a{
+    color:#000;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+header{
+   position: fixed;
+   top: 0;
+   min-height: 75px;
+   padding: 0px 20px;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   background-color: #eee; 
+}
+
+.logo > img {
+    width: 100%;
+    height: 100%;
+    max-width: 300px;
+    display: fixed;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 20px;
+}
+
+.grid{
+    display: flex;
+}
+
+#page-wrapper{
+    position: relative;
+}
+
+#features{
+    margin-top: 30px;
+}
+
+#features .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 125px;
+    width: 20vw;
+    color: darkorange;
+  }
+
+#pricing{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 200px;
+    margin-top: 50px;
+}
+
+#hero input[type='email'] {
+    max-width: 275px;
+    width: 100%;
+    padding: 5px;
+  }
+
