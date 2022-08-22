@@ -13,7 +13,7 @@ body {
   max-width: 1000px;
   width: 100%;
   margin: 0 auto;
-  }
+}
 
 .btn {
   padding: 0 20px;
@@ -38,7 +38,7 @@ body {
 }
 
 a {
-  color:#000;
+  color: #000;
   text-decoration: none;
 }
 
@@ -50,11 +50,11 @@ header {
   position: fixed;
   top: 0;
   min-height: 75px;
-  padding: 0px 20px;
+  padding: 0 20px;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #eee; 
+  background-color: #eee;
 }
 
 .logo > img {
@@ -72,7 +72,7 @@ header {
   display: flex;
 }
 
-#page-wrapper{
+#page-wrapper {
   position: relative;
 }
 
@@ -110,5 +110,4 @@ header {
   max-width: 275px;
   width: 100%;
   padding: 5px;
-  }
-
+}
